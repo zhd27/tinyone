@@ -14,7 +14,6 @@ h1,h2,h3,h4,h5,h6,p,ul,li,span{
 a,a:hover{
     text-decoration: none;
 }
-
 .navbar-nav .nav-item .nav-link{
 
     color: #010101;
@@ -73,6 +72,7 @@ font-family: 'PT Sans', sans-serif;
     justify-content: center;
     align-items: center;
 }
+
 .yellowdiv{
   position: absolute;
 
@@ -93,7 +93,8 @@ font-family: 'PT Sans', sans-serif;
     color:#feed80;
 }
 .right_content{
-    margin-left: 65px
+    margin-left: 65px;
+    padding: 30px 0px;
 }
 .padd{
     padding-top:40px;
@@ -160,6 +161,9 @@ font-family: 'PT Sans', sans-serif;
 .heads_part input{
     width: 52%;
     border-radius: 6px;
+        padding: 10px;
+    margin-right: 15px;
+    border: none;
 }
 .heads_part button{
     padding: 10px 40px;
@@ -169,11 +173,7 @@ font-family: 'PT Sans', sans-serif;
     border:none;
     border-radius: 6px;
 } 
-.heads_part input{
-    padding: 10px;
-    margin-right: 15px;
-    border: none;
-}
+
 .heads_part input::placeholder{
     color: #898989;
     font-size: 18px;
@@ -218,4 +218,9 @@ font-family: 'PT Sans', sans-serif;
 footer{
     background-color: #010101;
     padding: 80px;
+    text-align: center;
+}
+.right_content{
+    margin-top: 30px;
+    margin-right: 0px;
 }
